@@ -43,3 +43,4 @@ gtk/missing
 gtk/po/Makevars.template
 gtk/po/*.gmo
 gtk/po/*~
+##

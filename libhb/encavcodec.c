@@ -380,7 +380,7 @@ int encavcodecInit( hb_work_object_t * w, hb_job_t * job )
     context->time_base.num = fps.den;
     context->framerate     = fps;
     context->gop_size  = ((double)job->orig_vrate.num / job->orig_vrate.den +
-                                  0.5) * 10;
+                                  0.5) * 1;
 
     if (apply_encoder_level(context, &av_opts, job->vcodec, job->encoder_level))
     {
